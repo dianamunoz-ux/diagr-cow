@@ -1,0 +1,13 @@
+def start(tokens):
+  i, error = expr(tokens, i)
+  if error != ''
+    return i, error
+return i, ''
+
+def expr(tokens, i)
+  if i<len(tokens) and tokens[i]== ter:
+    i=i+1
+  else
+  return i, 'se esperabb aun pertesi'
+
+return i, ''
